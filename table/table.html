@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px
+}
+</style>
+</head>
 <title>Create an HTML Table</title>
 
 </head>
 <body>
-    <table>
-        <tr>
-          <th>Class</th>
-          <th>Period</th>
-          <th>Room</th>
-          <th>Teacher</th>
-          <th>Grade</th>
-        </tr>
-        <tr>
-          <td>WoG 12</td>
-          <td>1</td>
-          <td>1133</td>
-          <td>Hughes</td>
-          <td>A</td>
-        </tr>
-        <tr>
-          <td>AP Lit</td>
+  <table>
+    <tr>
+      <th>Class</th>
+      <th>Period</th>
+      <th>Room</th>
+      <th>Teacher</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>WoG 12</td>
+      <td>1</td>
+      <td>1133</td>
+      <td>Hughes</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>AP Lit</td>
           <td>3</td>
           <td>1154</td>
           <td>Meyer</td>
           <td>A</td>
         </tr>
         <tr>
-            <td>AP Bio</td>
-            <td>4</td>
-            <td>2301</td>
-            <td>Kren</td>
-            <td>A</td>
-          </tr>
-          <tr>
-            <td>German 4</td>
-            <td>5a</td>
-            <td>1140</td>
-            <td>Schmandt</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>Comp Science</td>
-            <td>6</td>
-            <td>2319</td>
-            <td>Schoeneck</td>
-            <td>A</td>
-          </tr>
-      </table>
+          <td>AP Bio</td>
+          <td>4</td>
+          <td>2301</td>
+          <td>Kren</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>German 4</td>
+          <td>5a</td>
+          <td>1140</td>
+          <td>Schmandt</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Comp Science</td>
+          <td>6</td>
+          <td>2319</td>
+          <td>Schoeneck</td>
+          <td>A</td>
+        </tr>
+  </table>
+  <p></p>
+  <table>
+    <caption>Reciept</caption>
+    <thead style="color:darkblue">
+      <tr>
+        <th>Item</th>
+        <th>Amount</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody style="color:green">
+      <tr>
+        <td>Apple</td>
+        <td>2</td>
+        <td>$1.00</td>
+      </tr>
+      <tr>
+        <td>Banana</td>
+        <td>4</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>Carrot</td>
+        <td>3</td>
+        <td>$2.00</td>
+      </tr>
+    </tbody>
+    <tfoot style="color:red;text-align:center">
+      <tr>
+        <td>Total</td>
+        <td>9</td>
+        <td>$6.00</td>
+      </tr>
+    </tfoot>
+  </table>
 </body>
 </html>
