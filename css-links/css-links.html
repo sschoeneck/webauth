@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Links</title>
+<style>
+
+a.one:link {color:aqua;}
+a.one:visited {color:brown;}
+a.one:hover {color:hotpink;}
+a.one:active {color:yellowgreen};
+
+a.two:link {font-family: fantasy;}
+a.two:visited {font-family: serif;}
+a.two:hover {font-family: sans-serif;}
+a.two:active {font-family: monospace;}
+
+a.three:link {background:purple;}
+a.three:visited {background:yellow;}
+a.three:hover {background:red;}
+a.three:active {background:blue;}
+
+a.four:link {font-size:140%;}
+a.four:visited {font-size:120%;}
+a.four:hover {font-size:100%;}
+a.four:active {font-size:80%;}
+
+a.five:link {color:darkblue; text-shadow: 1px 1px red;}
+a.five:visited {color:blue; text-shadow: 2px 2px 1px red;}
+a.five:hover {letter-spacing: 1px; font-size:95%; color:blue; text-shadow: 1px 1px 3px red;}
+a.five:active {letter-spacing: 3px; font-size:90%; color:blue; text-shadow: 0px 0px 5px red;}
+
+a.six:link, a.six:visited {
+  background-color: rgb(214, 170, 255);
+  color: rgb(49, 49, 49);
+  border: 3px solid blueviolet;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 30px;
+  text-shadow: 0px 0px 3px blueviolet;
+}
+
+a.six:hover {
+  background-color: rgb(191, 122, 255);
+  color: rgb(212, 212, 212);
+  text-decoration:line-through dashed;
+  text-shadow: 0px 0px 5px blueviolet;
+}
+
+a.six:active {
+    background-color: rgb(176, 91, 255);
+    font-size: 29px;
+    color:white;
+    padding: 14px 24px;
+    text-decoration-style:solid;
+    text-shadow: 0px 0px 10px rgb(114, 26, 197);
+}
+
+</style>
+</head>
+<body>
+
+<p>This link <a class="one" href="https://www.wikipedia.org/">[here]</a> takes you to wikipedia.</p>
+<p>This link <a class="two" href="https://www.wikipedia.org/">[here]</a> takes you to wikipedia.</p>
+<p>This link <a class="three" href="https://www.wikipedia.org/">[here]</a> takes you to wikipedia.</p>
+<p>This link <a class="four" href="https://www.wikipedia.org/">[here]</a> takes you to wikipedia.</p>
+<p>This link <a class="five" href="https://www.wikipedia.org/">[here]</a> takes you to wikipedia.</p>
+<p><a class="six" href="https://www.wikipedia.org/">Link</a></p>
+
+</body>
+</html>
