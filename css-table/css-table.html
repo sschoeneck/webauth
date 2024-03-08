@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px dashed darkblue;
+}
+
+table {
+    width: 20%;
+}
+
+th, td {
+    height: 25px;
+}
+
+thead {
+    text-align: center;
+    background-color: rgb(146, 146, 218);
+}
+
+td {
+    text-align: right;
+    padding: 8px;
+}
+
+caption {
+    background-color: rgb(227, 133, 133);
+}
+
+tbody {
+    background-color: rgb(230, 230, 135);
+}
+
+tfoot {
+    background-color: rgb(144, 202, 144);
+}
+
+</style>
+</head>
+<body>
+
+<table>
+    <caption>Reciept</caption>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Amount</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Apple</td>
+            <td>2</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>3</td>
+            <td>$1.75</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr class="foot">
+            <td>Total</td>
+            <td>5</td>
+            <td>$2.75</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
