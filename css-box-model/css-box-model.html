@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+
+div.one {
+    width: 150px;
+    border-width: 5px;
+    padding: 15px;
+    margin: 30px;
+    outline-width: 20px; 
+}
+
+div.two {
+    width: 250px;
+    border-width: 5px 10px;
+    padding: 15px 20px;
+    margin: 25px 30px;
+    outline-width: 35px;
+}
+
+div.three {
+    width: 370px;
+    border-width: 5px 10px 15px 20px;
+    padding: 25px 30px 35px 40px;
+    margin: 45px 50px 55px 60px;
+    outline-width: 65px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="one">
+<p>
+content width: 150px<br>
+top margin: 30px<br>
+right margin: 30px<br>
+bottom margin: 30px<br>
+left margin: 30px<br>
+top border: 5px<br>
+right border: 5px<br>
+bottom border: 5px<br>
+left border: 5px<br>
+top padding: 15px<br>
+right padding: 15px<br>
+bottom padding: 15px<br>
+left padding: 15px<br>
+outline thickness: 20px<br>
+TOTAL BOX WIDTH: 250px
+</p>
+</div>
+
+<div class="two">
+<p>
+content width: 250px<br>
+top margin: 25px<br>
+right margin: 30px<br>
+bottom margin: 25px<br>
+left margin: 30px<br>
+top border: 5px<br>
+right border: 10px<br>
+bottom border: 5px<br>
+left border: 10px<br>
+top padding: 15px<br>
+right padding: 20px<br>
+bottom padding: 15px<br>
+left padding: 20px<br>
+outline thickness: 35px<br>
+TOTAL BOX WIDTH: 370px
+</p>
+</div>
+
+<div class="three">
+<p>
+content width: 370px<br>
+top margin: 45px<br>
+right margin: 50px<br>
+bottom margin: 55px<br>
+left margin: 60px<br>
+top border: 5px<br>
+right border: 10px<br>
+bottom border: 15px<br>
+left border: 20px<br>
+top padding: 25px<br>
+right padding: 30px<br>
+bottom padding: 35px<br>
+left padding: 40px<br>
+outline thickness: 65px<br>
+TOTAL BOX WIDTH: 580px
+</p>
+</div>
+
+</body>
+</html>
