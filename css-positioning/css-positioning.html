@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+
+img.fixed {
+    position: fixed;
+    width: 15%;
+    height: auto;
+}
+
+img.relative {
+    position: relative;
+    width: 15%;
+    height: auto;
+    left: 350px;
+}
+
+img.absolute {
+    position: absolute;
+    width: 15%;
+    height: auto;
+}
+
+img.red {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 325px;
+    left: 25px;
+}
+
+img.green {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    left: 50px;
+    top: 350px;
+}
+
+img.blue {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    top: 300px;
+}
+
+html {cursor: progress;}
+img {cursor: move;}
+
+</style>
+</head>
+<body>
+
+<img class="fixed" src="Fixed.png"><br>
+<img class="relative" src="Relative.png"><br>
+<img class="absolute" src="Absolute.png"><br>
+
+<img class="red" src="Red.png"><br>
+<img class="green" src="Green.png"><br>
+<img class="blue" src="Blue.png"><br>
+
+</body>
+</html>
