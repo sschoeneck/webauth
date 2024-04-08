@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Opacity</title>
+<style>
+
+img{
+    width:50%;
+    height:auto;
+}
+
+#one {opacity: 50%;}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+}
+
+table{width:500px;height:250px;}
+
+#boxone {opacity: 90%;}
+#boxtwo {opacity: 80%;}
+#boxthree {opacity: 70%;}
+#boxfour {opacity: 60%;}
+#boxfive {opacity: 50%;}
+#boxsix {opacity: 40%;}
+#boxseven {opacity: 30%;}
+#boxeight {opacity: 20%;}
+#boxnine {opacity: 10%;}
+
+#cellone {color: rgba(0, 0, 0, 0.9);}
+#celltwo {color: rgba(0, 0, 0, 0.8);}
+#cellthree {color: rgba(0, 0, 0, 0.7);}
+#cellfour {color: rgba(0, 0, 0, 0.6);}
+#cellfive {color: rgba(0, 0, 0, 0.5);}
+#cellsix {color: rgba(0, 0, 0, 0.4);}
+#cellseven {color: rgba(0, 0, 0, 0.3);}
+#celleight {color: rgba(0, 0, 0, 0.2);}
+#cellnine {color: rgba(0, 0, 0, 0.1);}
+
+#bottom {
+    position:absolute;
+    z-index: -1;
+}
+#top {
+    position:relative;
+    z-index: 1;
+    left:25%;
+    opacity:50%;
+}
+
+</style>
+</head>
+<body>
+
+<img id="one" src="mountain.jpg">
+
+<table>
+    <tr>
+        <td id="boxone">90%</td>
+        <td id="boxtwo">80%</td>
+        <td id="boxthree">70%</td>
+    </tr>
+    <tr>
+        <td id="boxfour">60%</td>
+        <td id="boxfive">50%</td>
+        <td id="boxsix">40%</td>
+    </tr>
+    <tr>
+        <td id="boxseven">30%</td>
+        <td id="boxeight">20%</td>
+        <td id="boxnine">10%</td>
+    </tr>
+</table>
+<p></p>
+<table>
+    <tr>
+        <td id="cellone">90%</td>
+        <td id="celltwo">80%</td>
+        <td id="cellthree">70%</td>
+    </tr>
+    <tr>
+        <td id="cellfour">60%</td>
+        <td id="cellfive">50%</td>
+        <td id="cellsix">40%</td>
+    </tr>
+    <tr>
+        <td id="cellseven">30%</td>
+        <td id="celleight">20%</td>
+        <td id="cellnine">10%</td>
+    </tr>
+</table>
+
+<img id="bottom" src="mountains-190055_1280.jpg">
+<img id="top" src="mountain.jpg">
+
+</body>
+</html>
