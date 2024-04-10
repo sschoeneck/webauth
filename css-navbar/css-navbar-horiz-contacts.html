@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Navigation Bar Vertical Home</title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #deab84;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #daa073;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #edc5a6;
+}
+
+.active {
+  background-color: #f7dac2;
+}
+
+</style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="css-navbar-horiz-home.html">Home</a></li>
+        <li><a href="css-navbar-horiz-news.html">News</a></li>
+        <li><a class="active" href="css-navbar-horiz-contacts.html">Contact</a></li>
+        <li><a href="css-navbar-horiz-about.html">About</a></li>
+    </ul>
+    
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+        <h1>Contact</h1>
+    </div>
+
+</body>
+</html>
